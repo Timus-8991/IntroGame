@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackGround
+    uniqueID: 2546765117
+    locked: 0
+  - name: Clouds
+    uniqueID: 3967142189
+    locked: 0
+  - name: platforms
+    uniqueID: 3662858987
+    locked: 0
