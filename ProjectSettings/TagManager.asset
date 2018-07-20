@@ -38,14 +38,23 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: BackGround
     uniqueID: 2546765117
     locked: 0
   - name: Clouds
     uniqueID: 3967142189
+    locked: 0
+  - name: clound front
+    uniqueID: 4032436103
+    locked: 0
+  - name: Evironment BackGround
+    uniqueID: 1848985581
+    locked: 0
+  - name: Environment
+    uniqueID: 2237146057
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: platforms
     uniqueID: 3662858987
