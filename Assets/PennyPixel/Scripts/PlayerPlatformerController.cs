@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class PlayerPlatformerController : PhysicsObject {
 
-    public float maxSpeed = 7;
-    public float jumpTakeOffSpeed = 7;
+    public float maxSpeed = 14;
+    public float jumpTakeOffSpeed = 14;
 
+    public static int playerState;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 
@@ -15,6 +16,16 @@ public class PlayerPlatformerController : PhysicsObject {
     {
         spriteRenderer = GetComponent<SpriteRenderer> (); 
         animator = GetComponent<Animator> ();
+        playerState = 0;
+    }
+
+   protected override void computeState()
+    {
+        if(playerState == 2)
+        {
+            gameObject.transform.localScale = new Vector3(3.5f, 3.5f, 0f);
+        }
+
     }
 
     protected override void ComputeVelocity()
